@@ -10,7 +10,7 @@
 Summary:	New World Mac Bootloader
 Name:		yaboot
 Version:	1.3.13
-Release:	8mdk
+Release:	%mkrel 8
 License:	GPL
 Group:		System/Kernel and hardware
 ExclusiveArch: 	ppc ppc64
