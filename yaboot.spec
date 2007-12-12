@@ -106,14 +106,14 @@ true
 %{yabootdir}/addnote
 %{yabootdir}/ofboot
 %{yabootdir}/yaboot
-%{_mandir}/man8/bootstrap.8.bz2
-%{_mandir}/man8/mkofboot.8.bz2
-%{_mandir}/man8/yaboot.8.bz2
-%{_mandir}/man8/ybin.8.bz2
-%{_mandir}/man5/yaboot.conf.5.bz2
-%{_mandir}/man8/yabootconfig.8.bz2
+%{_mandir}/man8/bootstrap.8*
+%{_mandir}/man8/mkofboot.8*
+%{_mandir}/man8/yaboot.8*
+%{_mandir}/man8/ybin.8*
+%{_mandir}/man5/yaboot.conf.5*
+%{_mandir}/man8/yabootconfig.8*
 %if ! %{ppcutils_ofpath}
 %{_sbindir}/ofpath
-%{_mandir}/man8/ofpath.8.bz2
+%{_mandir}/man8/ofpath.8*
 %endif
 
