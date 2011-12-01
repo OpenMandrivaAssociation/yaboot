@@ -78,11 +78,11 @@ perl -pi -e 's|gunzip man/\*.gz|bunzip2 man/\*.bz2|g' Makefile
 %make
 
 %install
-%makeinstall ROOT=$RPM_BUILD_ROOT PREFIX=%{_prefix} MANDIR=share/man
+%makeinstall ROOT=%{buildroot} PREFIX=%{_prefix} MANDIR=share/man
 
 %if %{ppcutils_ofpath}
-rm -f $RPM_BUILD_ROOT%{_sbindir}/ofpath
-rm -f $RPM_BUILD_ROOT%{_mandir}/man8/ofpath.8.bz2
+rm -f %{buildroot}%{_sbindir}/ofpath
+rm -f %{buildroot}%{_mandir}/man8/ofpath.8.bz2
 %endif
 
 %clean
