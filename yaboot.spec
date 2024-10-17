@@ -28,7 +28,7 @@ Patch9:		yaboot-1.3.13-confarg.patch.bz2
 Patch10:	yaboot-1.3.13-ibm-vscsi.patch.bz2
 Patch11:	yaboot-1.3.13-ybin-raw-install-return0.patch.bz2
 
-Url:		http://penguinppc.org/projects/yaboot/
+Url:		https://penguinppc.org/projects/yaboot/
 BuildRoot:	%_tmppath/%name-%version-root
 
 Requires(post):	powerpc-utils >= 0.0.1-4mdk
