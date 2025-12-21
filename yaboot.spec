@@ -35,6 +35,7 @@ Requires(post):	powerpc-utils >= 0.0.1-4mdk
 Requires: powerpc-utils >= 0.0.1-4mdk
 Provides: bootloader ybin
 
+BuildRequires:	make
 %description
 Ybin is a GNU/Linux utility to install the yaboot  boot loader onto a 
 bootstrap partition. It will not run from MacOS.                        
